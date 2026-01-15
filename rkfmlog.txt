@@ -1,0 +1,16 @@
+----------------- HATA DETAYI -----------------
+Komut: echo hello world
+--- Beklenen (BASH) ---
+hello world
+--- Alınan (MINISHELL) ---
+hello
+world
+--- Exit Kodları ---
+Bash: 0 | Mini: 0
+--- Diff Value ---
+Çıktı Farkı: 1c1,2
+< hello world
+---
+> hello
+> world
+-----------------------------------------------
