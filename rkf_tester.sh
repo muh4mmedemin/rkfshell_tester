@@ -61,6 +61,7 @@ run_test "export TEST=12313 | grep TESTT"
 run_test "cd asdas aasasdas"
 run_test "cd .."
 run_test "cd /root/"
+run_test "cd | cd asdas adsdasd"
 
 
 # Pipe Test

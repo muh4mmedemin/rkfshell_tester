@@ -19,22 +19,11 @@ Bash: 1 | Mini: 130
 > 
 -----------------------------------------------
 ----------------- HATA DETAYI -----------------
-Komut: cd asdas aasasdas
+Komut: cd | cd asdas adsdasd
 --- Beklenen (BASH) ---
 --- Alınan (MINISHELL) ---
 --- Exit Kodları ---
 Bash: 1 | Mini: 0
 --- Diff Value ---
 Çıktı Farkı: 
------------------------------------------------
------------------ HATA DETAYI -----------------
-Komut: cd /root/
---- Beklenen (BASH) ---
---- Alınan (MINISHELL) ---
-
---- Exit Kodları ---
-Bash: 1 | Mini: 130
---- Diff Value ---
-Çıktı Farkı: 0a1
-> 
 -----------------------------------------------
