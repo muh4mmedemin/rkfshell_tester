@@ -4,7 +4,161 @@ Komut: cd /root/
 --- Alınan (MINISHELL) ---
 
 --- Exit Kodları ---
+Bash: 1 | Mini: 130
+--- Diff Value ---
+Çıktı Farkı: 0a1
+> 
+-----------------------------------------------
+----------------- HATA DETAYI -----------------
+Komut: export ş
+--- Beklenen (BASH) ---
+--- Alınan (MINISHELL) ---
+-babashell: export: 'ş': not a valid identifier
+--- Exit Kodları ---
+Bash: 1 | Mini: 0
+--- Diff Value ---
+Çıktı Farkı: 0a1
+> -babashell: export: 'ş': not a valid identifier
+-----------------------------------------------
+----------------- HATA DETAYI -----------------
+Komut: export =asdasdasdas
+--- Beklenen (BASH) ---
+--- Alınan (MINISHELL) ---
+-babashell: export: '=asdasdasdas': not a valid identifier
+--- Exit Kodları ---
+Bash: 1 | Mini: 0
+--- Diff Value ---
+Çıktı Farkı: 0a1
+> -babashell: export: '=asdasdasdas': not a valid identifier
+-----------------------------------------------
+----------------- HATA DETAYI -----------------
+Komut: cd /root/
+--- Beklenen (BASH) ---
+--- Alınan (MINISHELL) ---
+
+--- Exit Kodları ---
+Bash: 1 | Mini: 130
+--- Diff Value ---
+Çıktı Farkı: 0a1
+> 
+-----------------------------------------------
+----------------- HATA DETAYI -----------------
+Komut: export ş
+--- Beklenen (BASH) ---
+--- Alınan (MINISHELL) ---
+-babashell: export: 'ş': not a valid identifier
+--- Exit Kodları ---
+Bash: 1 | Mini: 0
+--- Diff Value ---
+Çıktı Farkı: 0a1
+> -babashell: export: 'ş': not a valid identifier
+-----------------------------------------------
+----------------- HATA DETAYI -----------------
+Komut: export =asdasdasdas
+--- Beklenen (BASH) ---
+--- Alınan (MINISHELL) ---
+-babashell: export: '=asdasdasdas': not a valid identifier
+--- Exit Kodları ---
+Bash: 1 | Mini: 0
+--- Diff Value ---
+Çıktı Farkı: 0a1
+> -babashell: export: '=asdasdasdas': not a valid identifier
+-----------------------------------------------
+----------------- HATA DETAYI -----------------
+Komut: cd /root/
+--- Beklenen (BASH) ---
+--- Alınan (MINISHELL) ---
+
+--- Exit Kodları ---
+Bash: 1 | Mini: 130
+--- Diff Value ---
+Çıktı Farkı: 0a1
+> 
+-----------------------------------------------
+----------------- HATA DETAYI -----------------
+Komut: export ş
+--- Beklenen (BASH) ---
+--- Alınan (MINISHELL) ---
+-babashell: export: 'ş': not a valid identifier
+--- Exit Kodları ---
 Bash: 1 | Mini: 1
+--- Diff Value ---
+Çıktı Farkı: 0a1
+> -babashell: export: 'ş': not a valid identifier
+-----------------------------------------------
+----------------- HATA DETAYI -----------------
+Komut: export =asdasdasdas
+--- Beklenen (BASH) ---
+--- Alınan (MINISHELL) ---
+-babashell: export: '=asdasdasdas': not a valid identifier
+--- Exit Kodları ---
+Bash: 1 | Mini: 1
+--- Diff Value ---
+Çıktı Farkı: 0a1
+> -babashell: export: '=asdasdasdas': not a valid identifier
+-----------------------------------------------
+----------------- HATA DETAYI -----------------
+Komut: cd /root/
+--- Beklenen (BASH) ---
+--- Alınan (MINISHELL) ---
+
+--- Exit Kodları ---
+Bash: 1 | Mini: 130
+--- Diff Value ---
+Çıktı Farkı: 0a1
+> 
+-----------------------------------------------
+----------------- HATA DETAYI -----------------
+Komut: export ş
+--- Beklenen (BASH) ---
+--- Alınan (MINISHELL) ---
+-babashell: export: 'ş': not a valid identifier
+--- Exit Kodları ---
+Bash: 1 | Mini: 1
+--- Diff Value ---
+Çıktı Farkı: 0a1
+> -babashell: export: 'ş': not a valid identifier
+-----------------------------------------------
+----------------- HATA DETAYI -----------------
+Komut: export =asdasdasdas
+--- Beklenen (BASH) ---
+--- Alınan (MINISHELL) ---
+-babashell: export: '=asdasdasdas': not a valid identifier
+--- Exit Kodları ---
+Bash: 1 | Mini: 1
+--- Diff Value ---
+Çıktı Farkı: 0a1
+> -babashell: export: '=asdasdasdas': not a valid identifier
+-----------------------------------------------
+----------------- HATA DETAYI -----------------
+Komut: cd /root/
+--- Beklenen (BASH) ---
+--- Alınan (MINISHELL) ---
+
+--- Exit Kodları ---
+Bash: 1 | Mini: 130
+--- Diff Value ---
+Çıktı Farkı: 0a1
+> 
+-----------------------------------------------
+----------------- HATA DETAYI -----------------
+Komut: cd /root/
+--- Beklenen (BASH) ---
+--- Alınan (MINISHELL) ---
+
+--- Exit Kodları ---
+Bash: 1 | Mini: 130
+--- Diff Value ---
+Çıktı Farkı: 0a1
+> 
+-----------------------------------------------
+----------------- HATA DETAYI -----------------
+Komut: cd /root/
+--- Beklenen (BASH) ---
+--- Alınan (MINISHELL) ---
+
+--- Exit Kodları ---
+Bash: 1 | Mini: 130
 --- Diff Value ---
 Çıktı Farkı: 0a1
 > 
