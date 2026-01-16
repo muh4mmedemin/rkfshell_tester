@@ -65,4 +65,9 @@ run_test "cd | cd asdas adsdasd"
 
 
 # Pipe Test
+run_test "cat Makefile | wc -l"
+run_test "cat Makefile | wc -l | ls -a"
+run_test "asdsadadad"
+run_test "lsssss"
+run_test ""
 #run_test ""
