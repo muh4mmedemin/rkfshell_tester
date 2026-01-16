@@ -39,9 +39,29 @@ run_test(){
 	fi
 	cleanup
 }
-
+# Basic Test
 echo "--- Basic Test ---"
 run_test "ls"
 run_test "pwd"
-run_test "echo hello world"
 run_test "cat Makefile"
+
+# Builtin Test
+echo "--- Builtin Test ---"
+run_test "echo selam ben"
+run_test "echo -n hahahaha awdwdawdaw dw n-n-n--n-n"
+run_test "echo"
+run_test "echo -n"
+run_test "echo -n-n-n-nn-n n"
+run_test "echo -nnnnnnn -n -n -n -n -n -n -n -n -n -n -n -nnnnn-nnnnn bunu deneyen tosun "
+run_test "echo -nnnnnnnnnnnnnnn"
+run_test "export TEST=12313 | grep TEST"
+run_test "export TEST | grep TEST"
+run_test "export TEST=| grep TEST"
+run_test "export TEST=12313 | grep TESTT"
+run_test "cd asdas aasasdas"
+run_test "cd .."
+run_test "cd /root/"
+
+
+# Pipe Test
+#run_test ""

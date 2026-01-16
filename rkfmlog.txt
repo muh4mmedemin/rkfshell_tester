@@ -1,16 +1,40 @@
 ----------------- HATA DETAYI -----------------
-Komut: echo hello world
+Komut: cd asdas aasasdas
 --- Beklenen (BASH) ---
-hello world
 --- Alınan (MINISHELL) ---
-hello
-world
 --- Exit Kodları ---
-Bash: 0 | Mini: 0
+Bash: 1 | Mini: 0
 --- Diff Value ---
-Çıktı Farkı: 1c1,2
-< hello world
----
-> hello
-> world
+Çıktı Farkı: 
+-----------------------------------------------
+----------------- HATA DETAYI -----------------
+Komut: cd /root/
+--- Beklenen (BASH) ---
+--- Alınan (MINISHELL) ---
+
+--- Exit Kodları ---
+Bash: 1 | Mini: 130
+--- Diff Value ---
+Çıktı Farkı: 0a1
+> 
+-----------------------------------------------
+----------------- HATA DETAYI -----------------
+Komut: cd asdas aasasdas
+--- Beklenen (BASH) ---
+--- Alınan (MINISHELL) ---
+--- Exit Kodları ---
+Bash: 1 | Mini: 0
+--- Diff Value ---
+Çıktı Farkı: 
+-----------------------------------------------
+----------------- HATA DETAYI -----------------
+Komut: cd /root/
+--- Beklenen (BASH) ---
+--- Alınan (MINISHELL) ---
+
+--- Exit Kodları ---
+Bash: 1 | Mini: 130
+--- Diff Value ---
+Çıktı Farkı: 0a1
+> 
 -----------------------------------------------
